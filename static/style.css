@@ -1,0 +1,70 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main card */
+.container {
+    width: 420px;
+    margin: 100px auto;
+    padding: 25px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+
+    /* Shadow for elevation */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.container h1 {
+    margin-bottom: 20px;
+}
+
+/* Input field */
+input {
+    padding: 12px;
+    width: 90%;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    background: #2c7be5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #1a5dcc;
+}
+
+/* Prediction result base */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+/* High temperature */
+.high-temp {
+    background-color: #e74c3c;
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.5);
+}
+
+/* Low temperature */
+.low-temp {
+    background-color: #3498db;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.5);
+}
